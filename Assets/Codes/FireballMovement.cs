@@ -10,15 +10,13 @@ public class FireballMovement : MonoBehaviour
     public float x_speed = Config.SPEED_FIREBALL;              //1f trên 1s
     private float maxDistance = Config.DISTANCE_LANE * 2;
 
-    // Start is called before the first frame update
     void Start()
     {
         obj = this.gameObject;
-        tf = this.gameObject.transform;
-        x_speed = Config.SPEED_FIREBALL;
+        tf = this.gameObject.transform;                 //lấy trước các object, transform để rút gọn code
+        x_speed = Config.SPEED_FIREBALL;                //gán từ đầu
     }
 
-    // Update is called once per frame
     void Update()
     {
         Vector3 newPos = new Vector3(tf.position.x - x_speed, tf.position.y, tf.position.z + Config.SPEED_OTHER);         // Z += 20f
@@ -26,7 +24,7 @@ public class FireballMovement : MonoBehaviour
         if (Mathf.Abs(tf.position.x) >= Config.DISTANCE_LANE + 0.2)
             x_speed *= -1;                        //đổi chiều 
         
-        if (tf.position.z <= Config.BACKGROUND_LIMIT)
+        if (tf.position.z <= Config.BACKGROUND_LIMIT)               //quá limit => xóa vật thể
             Destroy(gameObject);
     }
 }

@@ -6,6 +6,9 @@ TagManager:
   tags:
   - hourglass
   - enemies
+  - life_support
+  - constant
+  - ammo_box
   layers:
   - Default
   - TransparentFX
