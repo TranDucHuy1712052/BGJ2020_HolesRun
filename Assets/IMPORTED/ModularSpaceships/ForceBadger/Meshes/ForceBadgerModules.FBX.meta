@@ -1,0 +1,138 @@
+fileFormatVersion: 2
+guid: 073d74e8c9d6e654fab3a964ef7c23d5
+timeCreated: 1517741566
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ForceBadger_Cockpit
+    100002: ForceBadger_Hull
+    100004: ForceBadger_Sensor
+    100006: ForceBadger_Support_Left
+    100008: ForceBadger_Support_Right
+    100010: ForceBadger_Tail
+    100012: ForceBadger_Thruster
+    100014: ForceBadger_Thruster_Left
+    100016: ForceBadger_Thruster_Right
+    100018: ForceBadger_Weapon
+    100020: ForceBadger_Wing_Left
+    100022: ForceBadger_Wing_Right
+    100024: //RootNode
+    400000: ForceBadger_Cockpit
+    400002: ForceBadger_Hull
+    400004: ForceBadger_Sensor
+    400006: ForceBadger_Support_Left
+    400008: ForceBadger_Support_Right
+    400010: ForceBadger_Tail
+    400012: ForceBadger_Thruster
+    400014: ForceBadger_Thruster_Left
+    400016: ForceBadger_Thruster_Right
+    400018: ForceBadger_Weapon
+    400020: ForceBadger_Wing_Left
+    400022: ForceBadger_Wing_Right
+    400024: //RootNode
+    2300000: ForceBadger_Cockpit
+    2300002: ForceBadger_Hull
+    2300004: ForceBadger_Sensor
+    2300006: ForceBadger_Support_Left
+    2300008: ForceBadger_Support_Right
+    2300010: ForceBadger_Tail
+    2300012: ForceBadger_Thruster
+    2300014: ForceBadger_Thruster_Left
+    2300016: ForceBadger_Thruster_Right
+    2300018: ForceBadger_Weapon
+    2300020: ForceBadger_Wing_Left
+    2300022: ForceBadger_Wing_Right
+    3300000: ForceBadger_Cockpit
+    3300002: ForceBadger_Hull
+    3300004: ForceBadger_Sensor
+    3300006: ForceBadger_Support_Left
+    3300008: ForceBadger_Support_Right
+    3300010: ForceBadger_Tail
+    3300012: ForceBadger_Thruster
+    3300014: ForceBadger_Thruster_Left
+    3300016: ForceBadger_Thruster_Right
+    3300018: ForceBadger_Weapon
+    3300020: ForceBadger_Wing_Left
+    3300022: ForceBadger_Wing_Right
+    4300000: ForceBadger_Hull
+    4300002: ForceBadger_Sensor
+    4300004: ForceBadger_Thruster
+    4300006: ForceBadger_Wing_Left
+    4300008: ForceBadger_Tail
+    4300010: ForceBadger_Support_Left
+    4300012: ForceBadger_Thruster_Left
+    4300014: ForceBadger_Cockpit
+    4300016: ForceBadger_Weapon
+    4300018: ForceBadger_Wing_Right
+    4300020: ForceBadger_Support_Right
+    4300022: ForceBadger_Thruster_Right
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
