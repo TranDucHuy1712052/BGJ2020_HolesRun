@@ -17,7 +17,7 @@ public class BackgroundMovement : MonoBehaviour
     {
         Vector3 newPos = new Vector3(tf.position.x, tf.position.y, tf.position.z + Config.SPEED_BACKGROUND);         // Z += 20f
         tf.position = newPos;
-        if (tf.position.z <= -10)
+        if (tf.position.z <= Config.BACKGROUND_LIMIT)
             tf.position = Config.POSITION_BACKGROUND_RESPAWN;
     }
 }

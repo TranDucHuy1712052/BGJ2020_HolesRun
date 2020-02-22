@@ -38,6 +38,15 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void OnParticleCollision(GameObject other)
+    {
+        if (!isImmortal)
+            Destroy(gameObject);
+    }
+
+    //=========================
+    // VA CHẠM
+
     private void OnCollisionEnter(Collision collision)
     {
         GameObject touched = collision.gameObject;
@@ -85,7 +94,7 @@ public class PlayerController : MonoBehaviour
 
     void BecomeImmortal() {
         isImmortal = true;
-        this.gameObject.GetComponent<MeshRenderer>().material.color = new Color(1f,1f,1f,0.2f);
+        this.gameObject.GetComponent<MeshRenderer>().material.color = Color.magenta;
     }
     void BecomeKillable() {
         isImmortal = false;

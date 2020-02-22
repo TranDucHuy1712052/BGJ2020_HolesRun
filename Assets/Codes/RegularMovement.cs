@@ -5,6 +5,7 @@ using UnityEngine;
 public class RegularMovement : MonoBehaviour
 {
     Transform tf;
+    public float speed = Config.SPEED_OTHER;
     public bool moving = false;
     
     void Start()
@@ -16,7 +17,7 @@ public class RegularMovement : MonoBehaviour
     {
         if (moving)
         {
-            Vector3 newPos = new Vector3(tf.position.x, tf.position.y, tf.position.z + Config.SPEED_OTHER);         // Z += 20f
+            Vector3 newPos = new Vector3(tf.position.x, tf.position.y, tf.position.z + speed);         // Z += 20f
             tf.position = newPos;
         }
         if (tf.position.z <= Config.BACKGROUND_LIMIT)
